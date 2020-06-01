@@ -1,6 +1,6 @@
 <template>
-    <div >
-        <div id="top"><h1>MIN SKOLE</h1></div>
+    <div>
+        <div id="top"><h1>MY SCHOOL</h1></div>
         <div class="container undervisning">
             
             <div id="back"></div>
@@ -8,28 +8,28 @@
             <div id="front">
                 
                 <div id="tekst">
-                    <h3>UNDERVISNING</h3>
-                    <p>Kære studerende, Vi glæder os til at modtage dig på skolen igen.</p>
-                <p>I klasselokalerne vil i opleve at der er mere afstand til dine klassekammerater end der plejer at være. Derudover vil du opleve større afstand til din underviser samt remote assistance såfremt du har behov for hjælp. Alle lokaler vil være udstyret med håndsprit. </p> 
-                <p> Der vil derudover kræves af dig at du vasker hænder efter toiletbesøg, pauser samt efter du har spist. </p>
+                    <h3>YOUR LECTURES</h3>
+                    <p>Dear students, We look forward to welcoming you to your education again.</p>
+                <p>In the classrooms, you will find that there is more distance to your classmates than there usually is. In addition, you will experience greater distance to your teacher as well as remote assistance, if you need any help. All rooms will be equipped with hand-sanitizers.</p> 
+                <p>You will also be required to wash your hands after toilet visits, breaks and after eating.</p>
                 </div>
             </div>
         </div>
         <div id="tail">
             <div id="line"></div>
             <div id="tekst">
-                <h4>INNOVATORIET</h4>
-                <p>Relevant info vil blive opdateret</p>
+                <h4>THE INNOVATORIUM</h4>
+                <p>Relevant information will be updated.</p>
             </div>
             <div id="line"></div>
             <div id="tekst">
                 <h4>E0</h4>
-                <p>Relevant info vil blive opdateret</p>
+                <p>Relevant information will be updated.</p>
             </div>
             <div id="line"></div>
             <div id="tekst">
                 <h4>FREDAGSBAR</h4>
-                <p>Fredagsbaren er midlertidigt lukket. Alle sociale arrangementer vil blive afholdt udenfor alt afhængigt af vejret.</p>
+                <p>The bar is temporarily closed. All social events will be held outside depending on the weather.</p>
             </div>
         </div>
         
@@ -40,13 +40,13 @@
             <div id="front">
                 
                 <div id="tekst">
-                    <h3>RYGEOMRÅDER</h3>
-                    <p>På ryge områderne vil du opleve at der er afmærket hvor det er tilladt at stå. </p>
-                    <p>Det kan være en god ide at medbringe en paraply, da vi ikke kan garantere overdækkede rygefaciliteter til alle studerende. </p>
+                    <h3>SMOKING AREAS</h3>
+                    <p>In the smoking areas you will find that it is marked where it is allowed to stand.</p>
+                    <p> It may be a good idea to bring an umbrella as we cannot guarantee covered smoking facilities for all students.</p>
                 </div>
             </div>
         </div>
-        <h2>KANTINEN</h2>
+        <h2>THE CANTEEN</h2>
         <div class="container mikrobølge">
             
             <div id="back"></div>
@@ -54,18 +54,18 @@
             <div id="front">
                 
                 <div id="tekst">
-                    <h3>MIKROBØLGEOVN</h3>
-                    <p>Det er muligt at varme sin mad i skolens mikroovne, som du er vant til.</p>
-                    <p>Du skal blot huske at tørre mikroovnen af med desinficerende servietter som vil stå ved siden af mikroovnene. </p>
-                    <p>Da maden udsættes for varme over 75 grader, i mere end et sekund, vil eventuelle bakterier dræbes. </p>
+                    <h3>THE MICROWAVE</h3>
+                    <p>It is possible to heat its food in the school's microwaves as you are used to.</p>
+                    <p>Just remember to wipe the microwave with disinfectant napkins that will be visible next to the microwaves.</p>
+                    <p>As the food is exposed to heat above 75 degrees, for more than a second, any bacteria will be killed.</p>
                 </div>
             </div>
         </div>
         <div id="tail">
             <div id="line"></div>
             <div id="tekst">
-                <h4>DAGENS RET</h4>
-                <h4>UGE 32</h4>
+                <h4>DISH OF THE DAY</h4>
+                <h4>WEEK 32</h4>
                 <p>Tarteletter</p>
                 <p>Boller i karry</p>
                 <p>Gryderet med gyros og kartoffelmos</p>
@@ -80,21 +80,15 @@
             <div id="front">
                 
                 <div id="tekst">
-                    <h3>SIDDEPLADSER</h3>
-                    <p>Der vil i kantinen være skiltet hvorledes det er muligt at sidde i kantinen.</p>
-                    <p>Nå de tilgængelige pladser er optagede, vil det være muligt at medbringe sin mad til de andre områder på skolen inklusiv undervisningslokalerne. </p>
-                    <p>Der vil blive stillet flere opvaske stande op på skolens område.</p>
+                    <h3>SEATING AREAS</h3>
+                    <p>The canteen will be seperated into groups where you can enjoy your meal. </p>
+                    <p>If the available seats are occupied, it will be possible to bring your food to the other areas of the school including the classrooms.</p>
+                    <p>More dishes-disposals will be set up in the school area.</p>
                 </div>
             </div>
 
         </div>
-        <div id="tail">
-            <div id="line"></div>
-            <div id="tekst">
-                <h4>TILTAG FRA KANTINEN</h4>
-                <p>Her vil kantinen løbende opdatere tiltag, så du kan orientere dig om den nyeste information.</p>
-            </div>
-        </div>
+        
         <div class="container hygiejne">
             
             <div id="back"></div>
@@ -102,18 +96,18 @@
             <div id="front">
                 
                 <div id="tekst">
-                    <h3>HYGIEJNE</h3>
-                    <p>Personalet er i disse tider særligt opmærksomme på på rengøringen og den generelle hygiejne. </p>
-                    <p>Betyder det noget for mig? Du vil som studerende opleve at der er flere tænger i buffeten en normalt, dette er fordi vi udskifter disse hver 5 minut. Derudover skal håndspritten benyttes inden du går i krig med buffeten. </p>
-                    <p>Alle overflader vil daglige blive desinficeret 2 gange, og gulvene bliver dagligt spulet. Al kantine-personale vil bære handsker ved håndtering af fødevarer. </p>
+                    <h3>HYGIENE</h3>
+                    <p>The staff is particularly attentive to cleaning and general hygiene.</p>
+                    <p>Does that mean anything to me? As a student you will find that there are more pliers in the buffet than usual, this is because we change these every 5 minutes. In addition, the hand sanitizer must be used before entering the buffet.</p>
+                    <p>All surfaces will be disinfected twice daily and the floors will be flushed daily. All canteen staff will wear gloves when handling food.</p>
                 </div>
             </div>
         </div>
         <div id="tail">
             <div id="line"></div>
             <div id="tekst">
-                <h4>BETALING</h4>
-                <p>Det er ikke muligt at betale med kontanter i kantinen, for at mindske smittespredningen. Det er dog stadig muligt at betale med kort og mobilepay.</p>
+                <h4>PAYMENT</h4>
+                <p>It is not possible to pay with cash in the canteen, to reduce the spread of infection. However, it is still possible to pay by card.</p>
             </div>
         </div>
     </div>
@@ -121,7 +115,7 @@
 
 
 <style lang="scss" scoped>
-@import "./../scss/variables.scss";
+@import "./../../scss/variables.scss";
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
     #top{
         background-color: white;
@@ -208,7 +202,7 @@
       #middle{
           transform: translate(8vw,0);
           background: none;
-          background-image: url("../assets/PNG/Prikker Lys Gul.png");
+          background-image: url("../../assets/PNG/Prikker Lys Gul.png");
           background-size: cover;
           border: 3px solid map-get($map: $yellow, $key: tertiary);
       }
@@ -223,7 +217,7 @@
       #middle{
           transform: translate(8vw,0);
           background: none;
-          background-image: url("../assets/PNG/Prikker Lys Gul.png");
+          background-image: url("../../assets/PNG/Prikker Lys Gul.png");
           background-size: cover;
           border: 3px solid map-get($map: $yellow, $key: tertiary);
       }
@@ -238,7 +232,7 @@
          
           #tekst{
               margin-top: 7vw;
-              h3{
+               h3{
                      margin-top: -3vw;
                      text-align: center;
                      width: 100%;

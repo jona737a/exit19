@@ -7,44 +7,44 @@
     </div>
     <div class="home">
       <div class="minSkole container">
-        <h3>MIN SKOLE</h3>
-        <div id="back" ></div>
+        <h3>MY SCHOOL</h3>
+        <div id="back"></div>
         <div id="middle"></div>
-        <div id="front" data-aos="fade-right">
+        <div id="front">
           <div id="tekst">
-            <p>Her kan du læse mere om hvilke forbehold din skole tager i forbindelse med forebyggelsen mod Covid19. </p>
-            <p>Oplysningerne vil blive opdateret løbende. </p>
+            <p>You can read more about which certain reservations your school is taking, in preventing Covid19 here.  </p>
+            <p>The information will be updated on an ongoing basis.</p>
           </div>
-          <router-link id="button" to="/minSkole">
-            <h4>læs mere</h4>
+          <router-link id="button" to="/en/minSkole">
+            <h4>read more</h4>
             <div id="shadow"></div>
           </router-link>
         </div>
       </div>
       <div class="retningslinjer container">
-        <h3>RETNINGSLINJER</h3>
+        <h3>GUIDELINES</h3>
         <div id="back"></div>
         <div id="middle"></div>
         <div id="front">
           <div id="tekst">
-            <p>Her kan du læse om sundhedsstyrelsens retningslinjer, så du er sikker på hvordan du skal færdes i denne tid.</p>
+            <p>Here you can read about the guidelines put forth by Sundhedsstyrelsen, so you are sure as to how to act during these times.</p>
           </div>
-          <router-link id="button" to="/retningslinjer">
-            <h4>læs mere</h4>
+          <router-link id="button" to="/en/retningslinjer">
+            <h4>read more</h4>
             <div id="shadow"></div>
           </router-link>
         </div>
       </div>
       <div class="sundhedsstyrelsen container">
-        <h3>INFO FRA SUNDHEDSSTYRELSEN</h3>
+        <h3>INFORMATION FROM THE NATIONAL BOARD OF HEALTH</h3>
         <div id="back"></div>
         <div id="middle"></div>
         <div id="front">
           <div id="tekst">
-            <p>Her holdes du opdateret omkring smittespredningen, hvilke symptomer du skal være opmærksom på, samt hvordan du bliver tester og hvilke forholdsregler du skal tage.</p>
+            <p>We keep you up to date on the spread of the infection, what symptoms you should be aware of, as well as how you will be tested and what precautions you should take.</p>
           </div>
-          <router-link id="button" to="/sundhedsstyrelsen">
-            <h4>læs mere</h4>
+          <router-link id="button" to="/en/sundhedsstyrelsen">
+            <h4>read more</h4>
             <div id="shadow"></div>
           </router-link>
         </div>
@@ -53,9 +53,9 @@
     <div id="bottom">
       
       <div class="infografik container">
-        <h3>PLAKATER</h3>
-        <router-link id="button" to="/infoGrafik">
-          <h4>find dem her</h4>
+        <h3>POSTERS</h3>
+        <router-link id="button" to="/en/infoGrafik">
+          <h4>find them here</h4>
           <div id="shadow"></div>
         </router-link>
         <div id="prikker"></div>
@@ -75,8 +75,8 @@ export default {
   
 }
 </script>
-<style lang="scss" scoped>
-@import "./../scss/variables.scss";
+<style lang="scss">
+@import "./../../scss/variables.scss";
   #top{
     width: auto;
     height: 80vw;
@@ -216,7 +216,7 @@ export default {
         background-color: map-get($map: $yellow, $key: secondary);
       }
       #shadow{
-        background-image: url("./../assets/PNG/Prikker Orange.png");
+        background-image: url("./../../assets/PNG/Prikker Orange.png");
         border: 2px solid map-get($map: $yellow, $key: primary);
       }
     }
@@ -247,7 +247,7 @@ export default {
         background-color: map-get($map: $red, $key: primary);
       }
       #shadow{
-        background-image: url("./../assets/PNG/Prikker Lyserød.png");
+        background-image: url("./../../assets/PNG/Prikker Lyserød.png");
         border: 2px solid map-get($map: $red, $key: tertiary);
       }
     }
@@ -264,6 +264,10 @@ export default {
   }
 
   .sundhedsstyrelsen{
+    h3{
+      width: 70%;
+      text-align: center;
+    }
     #front{
       background-color: map-get($map: $blue, $key: primary);
       transform: translate(0, 0);
@@ -275,7 +279,7 @@ export default {
         background-color: map-get($map: $blue, $key: primary);
       }
       #shadow{
-        background-image: url("./../assets/PNG/Prikker Lyserød.png");
+        background-image: url("./../../assets/PNG/Prikker Lyserød.png");
         border: 2px solid map-get($map: $blue, $key: tertiary);
       }
     }
@@ -297,7 +301,7 @@ export default {
     padding-bottom: 30vw;
     box-sizing: border-box;
     #button{
-      width: 28vw;
+      width: 29vw;
       margin-top: 9vw;  
       transform: translateX(-32vw);
     }
@@ -309,18 +313,18 @@ export default {
       transform: translateX(-32vw);
     }
     h4{
-      width: 26vw;
+        width: 27vw;
         color: map-get($map: $BW, $key: black);
         background-color: map-get($map: $yellow, $key: primary);
       }
       #shadow{
-        width: 26vw;
-        background-image: url("./../assets/PNG/Prikker Orange.png");
+        width: 27vw;
+        background-image: url("./../../assets/PNG/Prikker Orange.png");
         border: 2px solid map-get($map: $yellow, $key: primary);
       }
 
       #front{
-        background-image: url("./../assets/JPG/brain.jpeg");
+        background-image: url("./../../assets/JPG/brain.jpeg");
         background-size: cover;
         transform: translate(15vw, 0);
         width: 35%;
@@ -344,7 +348,7 @@ export default {
         height: 40vw;
         
         transform: translate(15vw,0);
-        background-image: url("./../assets/PNG/Prikker Orange.png");
+        background-image: url("./../../assets/PNG/Prikker Orange.png");
         background-size: 50%;
         
       }

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="minSkole">
         <div id="top"><h1>OM OS</h1></div>
         <div class="container one">
             
@@ -9,7 +9,7 @@
                 
                 <div id="tekst">
                   <h3>VISION </h3>
-                  <p>De studerende på uddannelserne skal føle at det er sikkert at komme tilbage i skole.</p>
+                  <p>The students on the school should fell that it is safe to return to school.</p>
                   <h3>MISSION</h3>
                   <p>Vi vil skabe trygge rammer for studerende samt undervisere gennem grafisk materiale og skabe opmærksomhed omkring Covid19 gennem vores hjemmeside, som er målrettet studerende på videregående uddannelser.</p>
                   <h3>VALUES</h3>
@@ -69,7 +69,7 @@
 
 
 <style lang="scss" scoped>
-@import "./../scss/variables.scss";
+@import "./../../scss/variables.scss";
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
     #top{
         background-color: white;
@@ -160,7 +160,7 @@
       #middle{
           transform: translate(-8vw,0);
           background: none;
-          background-image: url("../assets/PNG/Prikker Lyserød.png");
+          background-image: url("../../assets/PNG/Prikker Lyserød.png");
           background-size: cover;
           border: 3px solid map-get($map: $red, $key: tertiary);
       }
