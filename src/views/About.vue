@@ -60,23 +60,23 @@
         </div>
         
         <div id="profiles">
-                <div id="profile">
-                    <div class="Pat pic"></div>
-                    <h3>Patrick</h3><h3> Jensen</h3>
-                </div>
-                <div id="profile">
-                    <div class="Cec pic"></div>
-                    <h3>Cecilie</h3><h3> Dichmann</h3>
-                </div>
-                <div id="profile">
-                    <div class="Mal pic"></div>
-                    <h3>Malene</h3><h3> Tranholm</h3>
-                </div>
-                <div id="profile">
-                    <div class="Jon pic"></div>
-                    <h3>Jonathan</h3><h3> Madsen</h3>
-                </div>
+            <div id="profile">
+                <div class="Pat pic"></div>
+                <h3>Patrick</h3><h3> Jensen</h3>
             </div>
+            <div id="profile">
+                <div class="Cec pic"></div>
+                <h3>Cecilie</h3><h3> Dichmann</h3>
+            </div>
+            <div id="profile">
+                <div class="Mal pic"></div>
+                <h3>Malene</h3><h3> Tranholm</h3>
+            </div>
+            <div id="profile">
+                <div class="Jon pic"></div>
+                <h3>Jonathan</h3><h3> Madsen</h3>
+            </div>
+        </div>
     </div>
 </template>
 

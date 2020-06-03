@@ -285,6 +285,7 @@
     }
     #back{
         padding-top: 120vw;
+        background-color: map-get($map: $red, $key: primary);
     }
 }  
 </style>
