@@ -103,8 +103,8 @@
                 
                 <div id="tekst">
                     <h3>HYGIEJNE</h3>
-                    <p>Personalet er i disse tider særligt opmærksomme på på rengøringen og den generelle hygiejne. </p>
-                    <p>Betyder det noget for mig? Du vil som studerende opleve at der er flere tænger i buffeten en normalt, dette er fordi vi udskifter disse hver 5 minut. Derudover skal håndspritten benyttes inden du går i krig med buffeten. </p>
+                    <p>Personalet er i disse tider særligt opmærksomme på rengøringen og den generelle hygiejne. </p>
+                    <p>Betyder det noget for mig? Du vil som studerende opleve at der er flere tænger i buffeten end normalt, dette er fordi vi udskifter disse hver 5 minut. Derudover skal håndspritten benyttes inden du går i krig med buffeten. </p>
                     <p>Alle overflader vil daglige blive desinficeret 2 gange, og gulvene bliver dagligt spulet. Al kantine-personale vil bære handsker ved håndtering af fødevarer. </p>
                 </div>
             </div>

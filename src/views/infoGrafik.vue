@@ -51,7 +51,7 @@
             <div id="back"></div>
             <div id="middle"></div>
             <div id="front">
-                <a id="button" target="_blank" href="https://firebasestorage.googleapis.com/v0/b/exit19.appspot.com/o/plakat_checklist_pdf.pdf?alt=media&token=d52292f3-d44d-402e-8176-78a99103bc50">
+                <a id="button" target="_blank" href="https://firebasestorage.googleapis.com/v0/b/exit19.appspot.com/o/checklist.pdf?alt=media&token=a97d07f1-e695-4b66-a3eb-214010a057ad">
                     <h4>download</h4>
                     <div id="shadow"></div>
                 </a>
