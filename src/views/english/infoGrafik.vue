@@ -1,12 +1,11 @@
 <template>
-    <div class="minSkole">
-        <div id="top"><h1>DOWNLOAD GRAFISKE MATERIALER</h1></div>
+    <div >
+        <div id="top"><h1>POSTERS</h1></div>
         <div class="container spray">
-            
             <div id="back"></div>
             <div id="middle"></div>
             <div id="front">
-                <a id="button" target="_blank" href="https://firebasestorage.googleapis.com/v0/b/exit19.appspot.com/o/gulflaske_pdf.pdf?alt=media&token=3a9d44e8-ac92-4b5a-9981-726745b46340">
+                <a id="button" target="_blank" href="https://firebasestorage.googleapis.com/v0/b/exit19.appspot.com/o/gulflaske-pdf.pdf?alt=media&token=89ed557c-df09-49f0-825d-655eb362bb95">
                     <h4>download</h4>
                     <div id="shadow"></div>
                 </a>
@@ -19,7 +18,7 @@
             <div id="back"></div>
             <div id="middle"></div>
             <div id="front">
-                <a id="button" target="_blank" href="https://firebasestorage.googleapis.com/v0/b/exit19.appspot.com/o/isvaffel_pdf.pdf?alt=media&token=92440e31-db7f-4488-bb22-2d93657af3d6">
+                <a id="button" target="_blank" href="https://firebasestorage.googleapis.com/v0/b/exit19.appspot.com/o/isvaffel-pdf.pdf?alt=media&token=2374dd9f-02f6-42eb-971e-ca092421c6a5">
                     <h4>download</h4>
                     <div id="shadow"></div>
                 </a>
@@ -31,7 +30,7 @@
             <div id="back"></div>
             <div id="middle"></div>
             <div id="front">
-                <a id="button" target="_blank" href="https://firebasestorage.googleapis.com/v0/b/exit19.appspot.com/o/use_your_brain_pdf.pdf?alt=media&token=f232ac16-5a16-431b-b6fc-6a5e7b7b4e24">
+                <a id="button" target="_blank" href="https://firebasestorage.googleapis.com/v0/b/exit19.appspot.com/o/use-your-brain-pdf.pdf?alt=media&token=f96af62d-3fea-40e9-a98a-a725b62d0055">
                     <h4>download</h4>
                     <div id="shadow"></div>
                 </a>
@@ -42,7 +41,7 @@
             <div id="back"></div>
             <div id="middle"></div>
             <div id="front">
-                <a id="button" target="_blank" href="https://firebasestorage.googleapis.com/v0/b/exit19.appspot.com/o/pinksvamp_pdf.pdf?alt=media&token=63fd1c7b-9199-4c63-b729-89ca1c3887c5">
+                <a id="button" target="_blank" href="https://firebasestorage.googleapis.com/v0/b/exit19.appspot.com/o/pinksvamp_pdf.pdf?alt=media&token=2be4d5aa-f142-4501-99e4-2c2d922fecb6">
                     <h4>download</h4>
                     <div id="shadow"></div>
                 </a>
@@ -53,7 +52,7 @@
             <div id="back"></div>
             <div id="middle"></div>
             <div id="front">
-                <a id="button" target="_blank" href="https://firebasestorage.googleapis.com/v0/b/exit19.appspot.com/o/checkliste_pdf.pdf?alt=media&token=044e6aed-3ad4-4757-9fa0-8476e2140619">
+                <a id="button" target="_blank" href="https://firebasestorage.googleapis.com/v0/b/exit19.appspot.com/o/plakat_checklist_pdf.pdf?alt=media&token=d52292f3-d44d-402e-8176-78a99103bc50">
                     <h4>download</h4>
                     <div id="shadow"></div>
                 </a>
@@ -64,7 +63,7 @@
             <div id="back"></div>
             <div id="middle"></div>
             <div id="front">
-                <a id="button" target="_blank" href="https://firebasestorage.googleapis.com/v0/b/exit19.appspot.com/o/pool.noodle_pdf.pdf?alt=media&token=daf5314b-5cab-402f-bf3d-48722db7bc79">
+                <a id="button" target="_blank" href="https://firebasestorage.googleapis.com/v0/b/exit19.appspot.com/o/pool.noodle_pdf.pdf?alt=media&token=41863f3e-eeaf-4c25-85e4-68ed795405d8">
                     <h4>download</h4>
                     <div id="shadow"></div>
                 </a>
@@ -75,7 +74,7 @@
             <div id="back"></div>
             <div id="middle"></div>
             <div id="front">
-                <a id="button" target="_blank" href="https://firebasestorage.googleapis.com/v0/b/exit19.appspot.com/o/cross.the.line_pdf.pdf?alt=media&token=d5518416-df1c-4156-9d77-3183b104f189">
+                <a id="button" target="_blank" href="https://firebasestorage.googleapis.com/v0/b/exit19.appspot.com/o/plakat_line_pdf.pdf?alt=media&token=4c3d5c78-3ea8-4b21-9f93-3e34a2b5ffc0">
                     <h4>download</h4>
                     <div id="shadow"></div>
                 </a>
@@ -89,7 +88,7 @@
 
 
 <style lang="scss" scoped>
-@import "./../../scss/variables.scss";
+@import "../../scss/variables.scss";
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
     #top{
         background-color: white;
@@ -102,11 +101,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 30vw 0 0 0;
-    
+        margin: 0 0 0 0;
     }
     h1{
         text-align: center;
+        width: 90vw;
     }
     h2{
         position: absolute;
@@ -115,7 +114,7 @@
         padding-top: 10vw;
     }
   #front{
-    width: 70%;
+    width: 67.2%;
     padding-top: 95%;
     position: relative; 
     z-index: 3;
@@ -123,7 +122,8 @@
     justify-content: center;
     align-items: center;
     background-color: map-get($map: $blue, $key: primary);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     
     
     #button{
@@ -142,7 +142,7 @@
             width: 32vw;
             height: 7vw;
             border-color: map-get($map: $blue, $key: tertiary);
-            background-image: url("./../../assets/PNG/Prikker Lys Blå.png");
+            background-image: url("../../assets/PNG/Prikker Lys Blå.png");
         }
     }
    
@@ -158,6 +158,7 @@
     z-index: 2;
     background-size: cover;
     background-color: map-get($map: $blue, $key: secondary);
+    transform: translate(5vw,0);
   }
 
   #back{
@@ -166,9 +167,10 @@
     position: absolute; 
     z-index: 1;
     background-color: map-get($map: $blue, $key: tertiary);
+    transform: translate(-8vw,0);
   }
 
-  .container:nth-child(odd){
+  .container:nth-child(even){
       #front{
           transform: translate(0,0);
          #button{
@@ -176,25 +178,25 @@
          } 
       }
       #middle{
-          transform: translate(8vw,0);
+          transform: translate(-8vw,0);
           
       }
       #back{
-          transform: translate(-5vw,0);
+          transform: translate(5vw,0);
       }
   }
 
   .spray{
       #front{
-          background-image: url("./../../assets/JPG/spray.jpeg");
+          background-image: url("../../assets/JPG/spray.jpeg");
           #button{
             h4{
                 background-color: map-get($map: $red, $key: tertiary);
                 color: map-get($map: $BW, $key: black);
             }
             #shadow{
-                background-image: url("./../../assets/PNG/Prikker Lyserød.png");
-                border-color: map-get($map: $red, $key: tertiary);
+                background-image: url("../../assets/PNG/Prikker Lyserød.png");
+                border: 2px solid map-get($map: $red, $key: tertiary);
             }
           }
       }
@@ -207,15 +209,16 @@
   }
   .isvaffel{
       #front{
-          background-image: url("./../../assets/JPG/isvaffel.jpeg");
+          background-image: url("../../assets/JPG/isvaffel.jpeg");
           #button{
+              transform: translate(-25vw,-5vw) !important;
             h4{
                 background-color: map-get($map: $blue, $key: tertiary);
                 color: map-get($map: $BW, $key: black);
             }
             #shadow{
-                background-image: url("./../../assets/PNG/Prikker Lyserød.png");
-                border-color: map-get($map: $red, $key: tertiary);
+                background-image: url("../../assets/PNG/Prikker Lyserød.png");
+                border: 2px solid map-get($map: $red, $key: tertiary);
             }
           }
       }
@@ -228,15 +231,15 @@
   }
   .brain{
       #front{
-          background-image: url("./../../assets/JPG/brain.jpeg");
+          background-image: url("../../assets/JPG/brain.jpeg");
           #button{
             h4{
                 background-color: map-get($map: $yellow, $key: secondary);
                 color: map-get($map: $BW, $key: black);
             }
             #shadow{
-                background-image: url("./../../assets/PNG/Prikker Orange.png");
-                border-color: map-get($map: $yellow, $key: primary);
+                background-image: url("../../assets/PNG/Prikker Orange.png");
+                border: 2px solid map-get($map: $yellow, $key: primary);
             }
           }
       }
@@ -249,15 +252,16 @@
   }
   .sæbe{
       #front{
-          background-image: url("./../../assets/JPG/svamp.jpeg");
+          background-image: url("../../assets/JPG/svamp.jpeg");
           #button{
+              transform: translate(-30vw,-8vw) !important;
             h4{
                 background-color: map-get($map: $blue, $key: primary);
                 color: map-get($map: $BW, $key: white);
             }
             #shadow{
-                background-image: url("./../../assets/PNG/Prikker Blå.png");
-                border-color: map-get($map: $blue, $key: secondary);
+                background-image: url("../../assets/PNG/Prikker Blå.png");
+                border:2px solid map-get($map: $blue, $key: secondary);
             }
           }
       }
@@ -270,15 +274,16 @@
   }
   .todo{
       #front{
-          background-image: url("./../../assets/JPG/checkliste.jpeg");
+          background-image: url("../../assets/JPG/checkliste.jpeg");
           #button{
+              transform: translate(28vw,13vw) !important; 
             h4{
                 background-color: map-get($map: $yellow, $key: secondary);
                 color: map-get($map: $BW, $key: black);
             }
             #shadow{
-                background-image: url("./../../assets/PNG/Prikker Orange.png");
-                border-color: map-get($map: $yellow, $key: primary);
+                background-image: url("../../assets/PNG/Prikker Orange.png");
+                border: 2px solid map-get($map: $yellow, $key: primary);
             }
           }
       }
@@ -291,15 +296,15 @@
   }
   .noodle{
       #front{
-          background-image: url("./../../assets/JPG/noodle.jpeg");
+          background-image: url("../../assets/JPG/noodle.jpeg");
           #button{
             h4{
                 background-color: map-get($map: $red, $key: secondary);
                 color: map-get($map: $BW, $key: white);
             }
             #shadow{
-                background-image: url("./../../assets/PNG/Prikker Blå.png");
-                border-color: map-get($map: $blue, $key: secondary);
+                background-image: url("../../assets/PNG/Prikker Blå.png");
+                border:2px solid map-get($map: $blue, $key: secondary);
             }
           }
       }
@@ -313,15 +318,16 @@
 
 .linje{
       #front{
-          background-image: url("./../../assets/JPG/linje.jpeg");
+          background-image: url("../../assets/JPG/linje.jpeg");
           #button{
+              transform: translateX(-30vw);
             h4{
                 background-color: map-get($map: $blue, $key: tertiary);
                 color: map-get($map: $BW, $key: black);
             }
             #shadow{
-                background-image: url("./../../assets/PNG/Prikker Mørk blå.png");
-                border-color: map-get($map: $blue, $key: primary);
+                background-image: url("../../assets/PNG/Prikker Mørk blå.png");
+                border:2px solid map-get($map: $blue, $key: primary);
             }
           }
       }
@@ -336,9 +342,9 @@
   .video{
     height: 60vw;
     width: 90vw;
-    background-image: url("./../../assets/PNG/Prikker Lyserød.png");
+    background-image: url("../../assets/PNG/Prikker Lyserød.png");
     background-size: cover;
-    margin: 20vw 5%;
+    margin: 20vw 5% 30vw 5%;
   }
 
   #video{

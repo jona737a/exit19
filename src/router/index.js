@@ -18,12 +18,12 @@ Vue.use(VueRouter)
 
   const routes = [
   {
-    path: '/frontPage',
+    path: '/',
     name: 'frontPage',
     component: frontPage
   },
   {
-    path: '/',
+    path: '/home',
     name: 'Home',
     component: Home
   },
@@ -53,7 +53,7 @@ Vue.use(VueRouter)
     component: infoGrafik
   },
   {
-    path: '/en',
+    path: '/en/home',
     name: 'EnHome',
     component: enHome
   },

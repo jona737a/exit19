@@ -21,21 +21,16 @@
             <div id="line"></div>
             <div id="tekst">
                 <h4>KONTAKT INFO </h4>
-                <p>+ 42352637</p>
-                <p>ceciliedichmann@hotmail.dk </p>
+                <p>+45 7613 3200</p>
+                <p>info@easv.dk </p>
             </div>
             <div id="line"></div>
             <div id="tekst">
                 <h4>STUDIEVEJLIGNING</h4>
-                <p>+ 42352637</p>
-                <p>ceciliedichmann@hotmail.dk</p>
+                <p>+45 4199 1299</p>
+                <p>SC@easv.dk</p>
             </div>
-            <div id="line"></div>
-            <div id="tekst">
-                <h4>SU</h4>
-                <p>+ 42352637</p>
-                <p>ceciliedichmann@hotmail.dk </p>
-              </div>
+            
         </div>
         
         <div class="container two">
@@ -57,13 +52,31 @@
             <div id="front">
                 
                 <div id="tekst">
-                  <h3>OM OS</h3>
+                  <h3>OM OS SOM KAMPAGNE</h3>
                     <p>EXIT19 er en non-profit kampagne lavet af et hold multimediedesignere, der brænder for de videregående studerendes velvære.</p>
                     <p>I forbindelse med genåbningen af de videregående uddannelsesinstitutioner under Covid19, er formålet med kampagnen EXIT19 at kommunikere et klart budskab til både studerende og undervisere, om at være opmærksom på at overholde den passende adfærd inden for retningslinjerne, så alle personer på institutionen sikres bedst muligt.</p>
                 </div>
             </div>
         </div>
         
+        <div id="profiles">
+                <div id="profile">
+                    <div class="Pat pic"></div>
+                    <h3>Patrick</h3><h3> Jensen</h3>
+                </div>
+                <div id="profile">
+                    <div class="Cec pic"></div>
+                    <h3>Cecilie</h3><h3> Dichmann</h3>
+                </div>
+                <div id="profile">
+                    <div class="Mal pic"></div>
+                    <h3>Malene</h3><h3> Tranholm</h3>
+                </div>
+                <div id="profile">
+                    <div class="Jon pic"></div>
+                    <h3>Jonathan</h3><h3> Madsen</h3>
+                </div>
+            </div>
     </div>
 </template>
 
@@ -77,7 +90,7 @@
     }
     .container{
         width: 100%;
-        height: 600px;
+        height: 150vw;
         box-sizing: border-box;
         display: flex;
         align-items: center;
@@ -287,6 +300,50 @@
         text-align: center;
         margin-bottom: 2vw;
     }
+    
 
   }
+  #profiles{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80vw;
+        justify-content: space-between;
+        height: 110w;
+        margin: -20vw auto 50vw auto ;
+        margin-top: 20vw;
+        margin-bottom: 50vw;
+        #profile{
+            width: 40vw;
+            height: 50vw;
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            h3{
+                text-align: center;
+                width: 40vw;
+                font-size: 4vw;
+            
+            }
+            .pic{
+                width: 30vw;
+                height: 30vw;
+                margin-bottom: 2vw;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+            .Pat{
+                background-image: url("./../assets/PNG/patrick.png");
+                
+            }
+            .Cec{
+                background-image: url("./../assets/PNG/cecilie.png");
+            }
+            .Mal{
+                background-image: url("./../assets/PNG/malene.png");
+            }
+            .Jon{
+                background-image: url("./../assets/PNG/jonathan.png");
+            }
+        }
+    }
 </style>

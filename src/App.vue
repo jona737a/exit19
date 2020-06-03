@@ -2,33 +2,33 @@
   <div id="app">
     
     <nav>
-      <router-link id="english" to="/en" v-if="lang == false" ><p @click="lang = true, scroll()">Dansk</p></router-link>
-      <router-link id="english" to="/" v-else><p @click="lang = false, scroll()" >English</p></router-link>
+      <router-link id="english" to="/en/home" v-if="lang == false" ><p @click="lang = true, scroll()">Dansk</p></router-link>
+      <router-link id="english" to="/home" v-else><p @click="lang = false, scroll()" >English</p></router-link>
       <div id="menuToggle">
         <input id="Check" type="checkbox" />
           <span></span>
           <span></span>
           <span></span>
     <ul id="menu" v-if="lang == false">
-      <router-link to="/"> <img id="Logo" @click="unCheck(), scroll()" src="./assets/SVG/Logo_orange.svg" alt="Logo" ></router-link>
+      <router-link to="/en/home"> <img id="Logo" @click="unCheck(), scroll()" src="./assets/SVG/Logo_orange.svg" alt="Logo" ></router-link>
       <router-link id="link" to="/en/minSkole" ><li @click="unCheck(), scroll()">MY SCHOOL</li></router-link>
       <router-link id="link" to="/en/retningslinjer"  ><li @click="unCheck(), scroll()">GUIDELINES</li></router-link>
       <router-link id="link" to="/en/sundhedsstyrelsen"  ><li @click="unCheck(), scroll()">INFORMATION FROM THE NATIONAL BOARD OF HEALTH</li></router-link>
-      <router-link id="link" to="/en/infoGrafik"  ><li @click="unCheck(), scroll()">DOWNLOAD GRAPHICAL MATERIAL</li></router-link>
+      <router-link id="link" to="/en/infoGrafik"  ><li @click="unCheck(), scroll()">POSTERS</li></router-link>
       <router-link id="link" to="/en/about"  ><li @click="unCheck(), scroll()">ABOUT US</li></router-link>
     </ul>
     <ul id="menu" v-else>
-      <router-link to="/"> <img id="Logo" @click="unCheck(), scroll()" src="./assets/SVG/Logo_orange.svg" alt="Logo" ></router-link>
+      <router-link to="/home"> <img id="Logo" @click="unCheck(), scroll()" src="./assets/SVG/Logo_orange.svg" alt="Logo" ></router-link>
       <router-link id="link" to="/minSkole" ><li @click="unCheck(), scroll()">MIN SKOLE</li></router-link>
       <router-link id="link" to="/retningslinjer"  ><li @click="unCheck(), scroll()">RETNINGSLINJER</li></router-link>
       <router-link id="link" to="/sundhedsstyrelsen"  ><li @click="unCheck(), scroll()">INFO FRA SUNDHEDSSTYRRELSEN</li></router-link>
-      <router-link id="link" to="/infoGrafik"  ><li @click="unCheck(), scroll()">DOWNLOAD GRAFISK MATERIALE</li></router-link>
+      <router-link id="link" to="/infoGrafik"  ><li @click="unCheck(), scroll()">PLAKATER</li></router-link>
       <router-link id="link" to="/about"  ><li @click="unCheck(), scroll()">OM OS</li></router-link>
     </ul>
-    
   </div>
 </nav>
-<router-link to="/"> <img id="logo" @click="scroll()" src="./assets/SVG/Logo_pink.svg" alt="Logo" ></router-link>
+<router-link to="/en/home" v-if="lang == false"> <img id="logo" @click="scroll()" src="./assets/SVG/Logo_pink.svg" alt="Logo" ></router-link>
+<router-link to="/home" v-else> <img id="logo" @click="scroll()" src="./assets/SVG/Logo_pink.svg" alt="Logo" ></router-link>
     <router-view/>
     <div id="footer">
       <div id="social">
@@ -38,7 +38,7 @@
       </div>
       <div id="contact">
         <p>info@easv.dk</p>
-        <p>+ 42352637</p>
+        <p>+45 7613 3200</p>
       </div>
     </div>
   </div>
@@ -67,7 +67,7 @@ export default {
 <style lang="scss">
 @import "./scss/variables.scss";
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 @font-face {
   font-family: 'TommyBold';
   src:  url(assets/fonts/MADEtommyBold.otf) format("opentype");
@@ -271,7 +271,7 @@ html{
   #contact{
     margin-top: 2vw;
     display: flex;
-    width: 40vw;
+    width: 60w;
     justify-content: space-between;
     color: map-get($map: $BW, $key: black);
     p{

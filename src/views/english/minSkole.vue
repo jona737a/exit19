@@ -292,7 +292,7 @@
 }
 
 .siddepladser{
-    margin-top: 0;
+    margin-top: -20vw;
     #front{
         padding-top: 80vw;
          

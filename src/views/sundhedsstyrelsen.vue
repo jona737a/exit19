@@ -156,7 +156,7 @@
   .symptomer{
       height: 80vw;
       #front{
-          padding-top: 72%;
+          padding-top: 76%;
           
           #tekst{
               h3{
@@ -177,6 +177,7 @@
 
 .epidemi{
       height: 80vw;
+      margin-top: 35vw;
       #front{
           padding-top: 95%;
           

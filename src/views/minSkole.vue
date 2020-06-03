@@ -129,7 +129,7 @@
     }
     .container{
         width: 100%;
-        height: 600px;
+        height: 150vw;
         box-sizing: border-box;
         display: flex;
         align-items: center;
@@ -298,7 +298,7 @@
 }
 
 .siddepladser{
-    margin-top: 0;
+    margin-top: -20vw;
     #front{
         padding-top: 80vw;
          
@@ -320,9 +320,9 @@
 }
 
 .hygiejne{
-    margin-top: 0;
+    margin-top: -30vw;
     #front{
-        padding-top: 113vw;
+        padding-top: 115vw;
          
           #tekst{
               margin-top: 7vw;

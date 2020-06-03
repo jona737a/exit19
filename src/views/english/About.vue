@@ -1,6 +1,6 @@
 <template>
     <div class="minSkole">
-        <div id="top"><h1>OM OS</h1></div>
+        <div id="top"><h1>ABOUT US</h1></div>
         <div class="container one">
             
             <div id="back"></div>
@@ -9,33 +9,28 @@
                 
                 <div id="tekst">
                   <h3>VISION </h3>
-                  <p>The students on the school should fell that it is safe to return to school.</p>
+                  <p>The students enrolled in education have to feel that it is safe to return to school.</p>
                   <h3>MISSION</h3>
-                  <p>Vi vil skabe trygge rammer for studerende samt undervisere gennem grafisk materiale og skabe opmærksomhed omkring Covid19 gennem vores hjemmeside, som er målrettet studerende på videregående uddannelser.</p>
+                  <p>We want to establish safe parameters for the students as well as the educators through graphical material and create awareness regarding Covid19 through our webpage, which is targeted towards students enrolled in higher educations.</p>
                   <h3>VALUES</h3>
-                  <p>Tryghed, frihed til samvær under ansvar, sikkerhed.</p>
+                  <p>Security, freedom to socialize with responsibility, safety.</p>
                   </div>
             </div>
         </div>
         <div id="tail">
             <div id="line"></div>
             <div id="tekst">
-                <h4>KONTAKT INFO </h4>
-                <p>+ 42352637</p>
-                <p>ceciliedichmann@hotmail.dk </p>
+                <h4>CONTACT INFO </h4>
+                <p>+45 7613 3200</p>
+                <p>info@easv.dk</p>
             </div>
             <div id="line"></div>
             <div id="tekst">
-                <h4>STUDIEVEJLIGNING</h4>
-                <p>+ 42352637</p>
-                <p>ceciliedichmann@hotmail.dk</p>
+                <h4>STUDY COUNSELING</h4>
+                <p>+45 4199 1299</p>
+                <p>SC@easv.dk</p>
             </div>
-            <div id="line"></div>
-            <div id="tekst">
-                <h4>SU</h4>
-                <p>+ 42352637</p>
-                <p>ceciliedichmann@hotmail.dk </p>
-              </div>
+            
         </div>
         
         <div class="container two">
@@ -44,8 +39,8 @@
             <div id="middle"></div>
             <div id="front">
                 <div id="tekst">
-                        <h3>KAMPAGNE STRATEGI</h3>
-                        <p>EXIT19 kommunikationsstrategien indeholder iøjnefaldende nudging og humoristisk grafik med et tydeligt budskab angående sikkerhed, samt tydeligt visuelle videoplakater der skal fremvises på storskærme. EXIT19 vil udnytte både trykt materiale samt elektroniske medier for at ramme målgruppen bedst muligt. </p>
+                        <h3>CAMPAIGN STRATEGY</h3>
+                        <p>The EXIT19 communication strategy includes eye catching nudging and humorous graphics with a clear message regarding safety as well as clear visual video posters which are to be played on big screens. EXIT19 will both exploit printed material as well as electronic media to best possible hit the target group.</p>
                     </div>
             </div>
         </div>
@@ -57,9 +52,9 @@
             <div id="front">
                 
                 <div id="tekst">
-                  <h3>OM OS</h3>
-                    <p>EXIT19 er en non-profit kampagne lavet af et hold multimediedesignere, der brænder for de videregående studerendes velvære.</p>
-                    <p>I forbindelse med genåbningen af de videregående uddannelsesinstitutioner under Covid19, er formålet med kampagnen EXIT19 at kommunikere et klart budskab til både studerende og undervisere, om at være opmærksom på at overholde den passende adfærd inden for retningslinjerne, så alle personer på institutionen sikres bedst muligt.</p>
+                  <h3>ABOUT US AS A CAMPAIGN</h3>
+                    <p>EXIT19 is a non-profit campaign created by a competent team of multimedia designers, who long for the wellbeing of the higher educations’ students.</p>
+                    <p>In connection to the re-opening of the higher educational institutions during Covid19, is the purpose of the campaign EXIT19 to communicate a clear message to both students as well as educators regarding awareness of complying with the appropriate behaviour as put forth by the guidelines, so that everyone at the institutions are secured as best as possible.</p>
                 </div>
             </div>
         </div>

@@ -96,7 +96,7 @@
     }
     .Container{
         width: 100%;
-        height: 200vw;
+        height: 190vw;
         box-sizing: border-box;
         display: flex;
         align-items: center;
@@ -190,7 +190,7 @@
   }
 
   .one{
-      
+      margin-top: 5vw;
       #front{
           padding-top: 155%;
           
@@ -224,7 +224,7 @@
 
 .three{
     #front{
-          padding-top: 160%;
+          padding-top: 165%;
           
           #tekst{
               margin-top: -170vw;
@@ -255,7 +255,7 @@
 }
 
 .five{
-    
+    height: 120vw;
     #front{
           padding-top: 105%;
           

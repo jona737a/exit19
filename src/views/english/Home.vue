@@ -16,7 +16,7 @@
             <p>The information will be updated on an ongoing basis.</p>
           </div>
           <router-link id="button" to="/en/minSkole">
-            <h4>read more</h4>
+            <h4 @click="scroll()">read more</h4>
             <div id="shadow"></div>
           </router-link>
         </div>
@@ -30,7 +30,7 @@
             <p>Here you can read about the guidelines put forth by Sundhedsstyrelsen, so you are sure as to how to act during these times.</p>
           </div>
           <router-link id="button" to="/en/retningslinjer">
-            <h4>read more</h4>
+            <h4 @click="scroll()">read more</h4>
             <div id="shadow"></div>
           </router-link>
         </div>
@@ -44,7 +44,7 @@
             <p>We keep you up to date on the spread of the infection, what symptoms you should be aware of, as well as how you will be tested and what precautions you should take.</p>
           </div>
           <router-link id="button" to="/en/sundhedsstyrelsen">
-            <h4>read more</h4>
+            <h4 @click="scroll()">read more</h4>
             <div id="shadow"></div>
           </router-link>
         </div>
@@ -55,7 +55,7 @@
       <div class="infografik container">
         <h3>POSTERS</h3>
         <router-link id="button" to="/en/infoGrafik">
-          <h4>find them here</h4>
+          <h4 @click="scroll()">find them here</h4>
           <div id="shadow"></div>
         </router-link>
         <div id="prikker"></div>
@@ -72,7 +72,11 @@
 
 
 export default {
-  
+  methods: {
+    scroll: function() {
+      window.scrollTo(0, 0);
+    },
+  },
 }
 </script>
 <style lang="scss">
@@ -90,7 +94,7 @@ export default {
       font-family: TommyBold;
       font-size: 5vw;
       color: map-get($map: $BW, $key: black);
-      transform: translate(3vw, -7vw)
+      transform: translate(3vw, -7vw) 
                   rotate(-20deg);
       position: absolute;
     }
@@ -158,6 +162,7 @@ export default {
     display: flex;
     flex-flow: column;
     align-items: center;
+    animation: slide-bottom 1s ease;
   }
 
   #button{
@@ -197,15 +202,15 @@ export default {
     position: absolute; 
     z-index: 2;
     background-size: cover;
+    animation: slide-left 1s ease;
   }
 
   #back{
     width: 60%;
-    padding-top:100%;
-    
+    padding-top:95%;
     position: absolute; 
     z-index: 1;
-   
+   animation: slide-right 1s ease;
   }
   .minSkole{
     #front{

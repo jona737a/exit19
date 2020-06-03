@@ -19,4 +19,15 @@ $red:(
 $BW:(
     black: #363535,
     white: #f6f4f0,
-)
+);
+
+@mixin animation-mixin($name, $fromX, $toX, $fromY, $toY) {
+    @keyframes #{$name} {
+      0% {transform: translate3d($fromX, $fromY, 0); opacity: 0;}
+      100% {transform: translate3d($toX, $toY, 0); opacity: 1;}
+    }
+};
+
+@include animation-mixin(slide-left, -15vw, -8vw, 0, 0);
+@include animation-mixin(slide-right, 15vw, 5vw, 0, 0);
+@include animation-mixin(slide-bottom, 0, 0, 10vw, 0vw);

@@ -155,9 +155,9 @@
   .symptomer{
       height: 80vw;
       #front{
-          padding-top: 72%;
+          padding-top: 75%;
           h3{
-              margin-top: -63vw;
+              margin-top: -65vw;
           }
           #tekst{
               margin-top: 10vw;
@@ -173,10 +173,11 @@
 
 .epidemi{
       height: 80vw;
+      margin-top: 33vw;
       #front{
-          padding-top: 95%;
+          padding-top: 98%;
           h3{
-              margin-top: -85vw;
+              margin-top: -87vw;
               transform: translateX(-7vw);
           }
           #tekst{

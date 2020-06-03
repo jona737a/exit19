@@ -16,7 +16,7 @@
             <p>Oplysningerne vil blive opdateret løbende. </p>
           </div>
           <router-link id="button" to="/minSkole">
-            <h4>læs mere</h4>
+            <h4 @click="scroll()">læs mere</h4>
             <div id="shadow"></div>
           </router-link>
         </div>
@@ -30,7 +30,7 @@
             <p>Her kan du læse om sundhedsstyrelsens retningslinjer, så du er sikker på hvordan du skal færdes i denne tid.</p>
           </div>
           <router-link id="button" to="/retningslinjer">
-            <h4>læs mere</h4>
+            <h4 @click="scroll()">læs mere</h4>
             <div id="shadow"></div>
           </router-link>
         </div>
@@ -44,7 +44,7 @@
             <p>Her holdes du opdateret omkring smittespredningen, hvilke symptomer du skal være opmærksom på, samt hvordan du bliver tester og hvilke forholdsregler du skal tage.</p>
           </div>
           <router-link id="button" to="/sundhedsstyrelsen">
-            <h4>læs mere</h4>
+            <h4 @click="scroll()">læs mere</h4>
             <div id="shadow"></div>
           </router-link>
         </div>
@@ -55,7 +55,7 @@
       <div class="infografik container">
         <h3>PLAKATER</h3>
         <router-link id="button" to="/infoGrafik">
-          <h4>find dem her</h4>
+          <h4 @click="scroll()">find dem her</h4>
           <div id="shadow"></div>
         </router-link>
         <div id="prikker"></div>
@@ -72,7 +72,11 @@
 
 
 export default {
-  
+  methods: {
+    scroll: function() {
+      window.scrollTo(0, 0);
+    },
+  },
 }
 </script>
 <style lang="scss" scoped>
@@ -158,6 +162,7 @@ export default {
     display: flex;
     flex-flow: column;
     align-items: center;
+    animation: slide-bottom 0.5s ease;
   }
 
   #button{
@@ -201,16 +206,15 @@ export default {
 
   #back{
     width: 60%;
-    padding-top:100%;
-    
+    padding-top:95%;
     position: absolute; 
     z-index: 1;
-   
   }
   .minSkole{
     #front{
       background-color: map-get($map: $yellow, $key: secondary);
       transform: translate(0,0);
+      
       h4{
         color: map-get($map: $BW, $key: black);
         background-color: map-get($map: $yellow, $key: secondary);
@@ -239,6 +243,7 @@ export default {
       background-color: map-get($map: $red, $key: primary);
       transform: translate(0,0);
       padding-top: 60%;
+      
       p{
         color: map-get($map: $BW, $key: white);
       }
@@ -267,6 +272,7 @@ export default {
     #front{
       background-color: map-get($map: $blue, $key: primary);
       transform: translate(0, 0);
+      
       p{
         color: map-get($map: $BW, $key: white);
       }
@@ -323,6 +329,7 @@ export default {
         background-image: url("./../assets/JPG/brain.jpeg");
         background-size: cover;
         transform: translate(15vw, 0);
+        
         width: 35%;
         padding-top: 48%;
       }

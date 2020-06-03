@@ -133,7 +133,8 @@
             z-index: 4;
             color: map-get($map: $BW, $key: white);
             margin: 5vw auto 2vw auto;
-                  font-size: 4vw;
+            font-size: 4vw;
+            text-align: center;
         }
         p{
             width: 90%;
@@ -223,7 +224,7 @@
 
 .three{
     #front{
-          padding-top: 160%;
+          padding-top: 166%;
           
           #tekst{
               margin-top: -170vw;
@@ -254,7 +255,7 @@
 }
 
 .five{
-    
+    height: 120vw;
     #front{
           padding-top: 105%;
           
@@ -271,6 +272,7 @@
 }
   
 .six{
+    margin-top: 10vw;
     #front{
         padding-top: 100vw;
         background: none;
